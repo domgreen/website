@@ -1,0 +1,68 @@
+baseurl = "https://domgreen.com"
+title = "domgreen"
+theme = "pulp"
+canonifyurls = true
+hasCJKLanguage = true
+# pygmentsCodefences = true
+# pygmentsUseClasses = true
+googleAnalytics = "UA-11599296-1"
+
+[taxonomies]
+  series = "series"
+
+[params]
+    author = "Dominic Green"
+    avatar = "domgreen.jpg"
+    favicon = "favicon.ico"
+    description = """
+        Software Engineer @ <a href="https://improbable.io">Improbable</a> | Organiser <a href="https://twitter.com/londongophers">London Gophers</a> & <a href="https://twitter.com/prometheusldn">Prometheus London</a> 
+    """
+    publicationYear = "2019"
+    # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
+    # singlePageDateFormat = "January 2, 2006"
+    # custom_css = ["/css/custom.css"]
+    # custom_js = ["/js/custom.js"]
+
+[outputs]
+    section = ["JSON", "HTML"]
+
+[[menu.main]]
+    identifier = "blog"
+    # name = "Blog" #If display text link, cancel comment out
+    pre = "<i class='fa fa-book-open fa-lg'></i>" #Choose your favorite font from Font Awesome
+    url = "/blog/"
+    weight = 10
+
+[[menu.main]]
+    identifier = "twitter"
+    # name = "Twitter"
+    pre = "<i class='fab fa-twitter fa-lg'></i>"
+    url = "https://twitter.com/domgreen"
+    weight = 20
+
+[[menu.main]]
+    identifier = "github"
+    # name = "GitHub"
+    pre = "<i class='fab fa-github fa-lg'></i>"
+    url = "https://github.com/domgreen"
+    weight = 30
+
+[[menu.main]]
+    identifier = "LinkedIn"
+    pre = "<i class='fab fa-linkedin fa-lg'></i>"
+    url = "https://www.linkedin.com/in/dominicgreen/"
+    weight = 30
+
+[[menu.main]]
+    identifier = "danddbeyond"
+    pre = "<i class='fas fa-dice-d20'></i>"
+    url = "https://www.dndbeyond.com/members/doomgreen"
+    weight = 30
+
+[[menu.main]]
+    identifier = "email"
+    # name = "Email"
+    pre = "<i class='fa fa-envelope fa-lg'></i>"
+    url = "mailto:dominicgreen1@egmail.com"
+    weight = 40
+    
