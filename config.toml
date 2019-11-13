@@ -63,6 +63,6 @@ googleAnalytics = "UA-11599296-1"
     identifier = "email"
     # name = "Email"
     pre = "<i class='fa fa-envelope fa-lg'></i>"
-    url = "mailto:mail@edomgreen.com"
+    url = "mailto:mail@domgreen.com"
     weight = 40
     
